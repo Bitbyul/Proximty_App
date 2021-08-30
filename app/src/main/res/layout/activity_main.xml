@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/img_main2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/img_main_activity2"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_main1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/img_main_activity" />
+
+    </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/colorBlack_2"
+        app:itemTextColor="@color/colorBlack_1"
+        app:itemBackground="@color/theme_color_2"
+        app:menu="@menu/bottom_nav" />
+
+
+
+</LinearLayout>

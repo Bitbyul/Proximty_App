@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PD학기제</string>
+    <string name="app_intro">찾고 모이고 함께하다</string>
+    <string name="id_input_please">아이디를 입력해주세요</string>
+    <string name="pw_input_please">패스워드를 입력해주세요</string>
+    <string name="login">로그인</string>
+    <string name="join">회원가입</string>
+    <string name="find_id">아이디 / 비밀번호 찾기</string>
+    <string name="login_title">로그인</string>
+
+    <string name="bottom_nav_0">친구</string>
+    <string name="bottom_nav_1">방 찾기</string>
+    <string name="bottom_nav_2">참여 목록</string>
+    <string name="bottom_nav_3">설정</string>
+
+    <string name="fragment0_title">친구 목록</string>
+    <string name="fragment1_title">가까운 방 목록</string>
+    <string name="fragment1_intro">다양한 사람들과 함께 해보세요!</string>
+    <string name="fragment2_title">참여한 방 목록</string>
+
+    <string name="btn_category_string1">식사</string>
+    <string name="btn_category_string2">택시</string>
+    <string name="btn_category_string3">카풀</string>
+    <string name="btn_category_string4">놀이</string>
+    <string name="btn_category_string5">공부</string>
+    <string name="btn_category_string6">기타</string>
+
+    <string name="btn_preference_string1">남자선호</string>
+    <string name="btn_preference_string2">여자선호</string>
+    <string name="btn_preference_string3">성별무관</string>
+    <string name="btn_preference_string4">더치</string>
+    <string name="btn_preference_string5">침묵!</string>
+    <string name="btn_preference_string6">비흡연자</string>
+    <string name="btn_preference_string7">또래선호</string>
+    <string name="btn_preference_string8">급해요!</string>
+    <string name="btn_preference_string9">한분만</string>
+
+    <string name="btn_address_refresh">새로고침</string>
+    <string name="address_textView">위치 받아오기 전</string>
+
+    <string name="setting_1">프로필 변경</string>
+    <string name="setting_2">로그아웃</string>
+    <string name="setting_3">회원탈퇴</string>
+
+    <string name="title_join_membership">회원가입</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

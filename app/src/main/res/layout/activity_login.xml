@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/app_intro"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID : "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText_id"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/id_input_please" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PW : "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText_pw"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/pw_input_please" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_login"/>
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/join"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_join"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/find_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_id"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp" />
+
+
+    <TextView
+        android:id="@+id/textView_login_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="//임시영역 : 로그인 결과 표시"
+        android:background="@color/colorGray_light"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+
+
+
+
+
+</LinearLayout>
